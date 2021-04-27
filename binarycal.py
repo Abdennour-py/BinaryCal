@@ -1,5 +1,5 @@
-def Number():
-    choice = input('(1) Binary To Dicimal (2) Dicimal To Binary :')
+def Bincal():
+    choice = input('(1) Binary To Dicimal (2) Dicimal To Binary (3) Text To Binary :')
     
     #Binary To Dicimal
     if choice == '1':
@@ -36,5 +36,5 @@ def Number():
 
     else:
         print("Your Command Dose not Exist..? PLease Try Again !")
-        Number()
-Number()
+        Bincal()
+Bincal()
